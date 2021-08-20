@@ -1,3 +1,98 @@
 * {
-    background-color: #8EE4AF;
+
+    /*  what is this box border? */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
 }
+
+:root {
+    --red: #AA2E44;
+    --lghtred: #D94865;
+    --orng3: #F9AD57;
+    --ylw: #F5D463;
+    --purp: #C6C1FF;
+    --blk: #000000;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--lghtred);
+}
+
+/* header and nav */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: var(--ylw);
+    width: 100%;
+    color: var(--red);
+    padding: 27px;
+    margin: 0;
+    
+}
+
+header a {
+    text-decoration: none;
+    color: var(--ylw);
+}
+
+header nav {
+    margin: 7px 0;
+    background-color: var(--ylw);
+
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 25px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    color: var(--red);
+  }
+
+  /* header and nav end */
+
+
+/* project display */
+
+.project-display {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+
+
+/* project display end */
+
+
+  /* contact */
+  .contact {
+      background-color: var(--ylw);
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding: 0 20px 0 20px;
+
+  }
+     .contact div {
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         margin: 7px 0;
+
+}
+/* contact end */
