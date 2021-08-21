@@ -60,6 +60,14 @@ header nav ul li a {
     font-size: 1.55vw;
     color: var(--red);
   }
+  
+  header nav ul li a:hover {
+      background: var(--orng3);
+      color: var(--purp);
+      border-radius: 15px;
+      text-shadow: none;
+      
+  }
 
   /* header and nav end */
 
@@ -74,8 +82,32 @@ header nav ul li a {
     text-align: end;
 }
 
+.hero div p {
+    width: 30%;
+    text-align: end;
+    text-align: right;
+}
+
 /* hero end */
 
+/* bio */
+
+.about-me h3 {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.about-me img {
+    width: 275px;
+    height: 350px;
+}
+
+.about-me p {
+    width: 30%;
+    text-align: right;
+}
+
+/* bio end */
 
 /* project display */
 
