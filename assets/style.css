@@ -63,18 +63,45 @@ header nav ul li a {
 
   /* header and nav end */
 
+/* hero */
+.hero {
+    background-color: var(--purp);
+    width: 100%;
+    margin: 0;
+    padding: 40px;
+}
+.hero h2 {
+    text-align: end;
+}
+
+/* hero end */
+
 
 /* project display */
+
+.project-display h3 {
+    border-right:15px solid var(--purp);
+    margin: 50px 20px 0 15px;
+}
 
 .project-display {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    
 }
 
-
-
+.project-display img {
+    border: 7px solid var(--orng3);
+    border-radius: 15px;
+}
+.project-display:first-child {
+    
+    justify-content: center;
+    width: 200px;
+    padding-right: 100px;
+}
 
 /* project display end */
 
