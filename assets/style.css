@@ -80,6 +80,7 @@ header nav ul li a {
 }
 .hero h2 {
     text-align: end;
+    
 }
 
 .hero div p {
@@ -92,48 +93,104 @@ header nav ul li a {
 
 /* bio */
 
+.about-me {
+    display: flex;
+    flex-direction: row;
+    margin: 40px 20px 40px 20px
+}
+
+
+
 .about-me h3 {
     font-size: 40px;
     font-weight: bolder;
+    display: flex;
+    width: 15%;
+    
+}
+
+.about-me-header {
+    
+    border-right: 3px solid var(--purp);
 }
 
 .about-me img {
     width: 275px;
     height: 350px;
+    border: 7px solid var(--orng3);
+    border-radius: 15px;
+    
+}
+
+.am {
+    width: auto;
 }
 
 .about-me p {
-    width: 30%;
+    width: 85%;
     text-align: right;
+    display: flex;
+    margin: 20px 20px 20px 20px;
 }
+
+
 
 /* bio end */
 
 /* project display */
 
-.project-display h3 {
-    border-right:15px solid var(--purp);
-    margin: 50px 20px 0 15px;
+.main {
+    width: 100%;
+    margin: 50px auto;
+    padding: 20px;
+    border-top: 7px solid var(--orng3);
+    border-bottom: 7px solid var(--orng3);
 }
 
-.project-display {
+/*.main h3 {
+    border-right:15px solid var(--purp);
+
+}*/
+
+.container {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    
+
 }
 
-.project-display img {
-    border: 7px solid var(--orng3);
+.flex-item {
+    width: 45%;
     border-radius: 15px;
+    border: 15px solid var(--orng3);
+    background-color: cyan;
+    min-height: 250px;
+    padding: 20px 0;
+    align-items: flex-end;
 }
-.project-display:first-child {
-    
-    justify-content: center;
-    width: 200px;
-    padding-right: 100px;
+
+.flex-item:first-child {
+    display: flex;
+    flex-grow: 2;
+    justify-content: space-between;
+    margin: 0 20% 0 20%;
+    background-image: url(./images/runbuddy-portfolio-img.jpg);
+    background-position: center;
+    background-size: cover;
 }
+
+.run-buddy {
+width: 100%;
+}
+
+
+
+
+
+
+
+
+/*background-image: url(./images/runbuddy-portfolio-img.jpg);
 
 /* project display end */
 
