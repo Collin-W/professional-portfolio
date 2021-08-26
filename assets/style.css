@@ -1,12 +1,8 @@
 * {
-
-    /*  what is this box border? */
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
 }
-
 :root {
     --red: #AA2E44;
     --lghtred: #fab1a0;
@@ -15,14 +11,14 @@
     --purp: #C6C1FF;
     --blk: #000000;
 }
-
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--lghtred);
 }
 
-/* header and nav */
 
+
+/* header and nav */
 header {
     display: flex;
     justify-content: space-between;
@@ -32,36 +28,23 @@ header {
     color: var(--red);
     padding: 27px;
     margin: 0;
-
     /* runbuddy stick header code */
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-
-    /* rainbow hero header */
- /* background-image: url("./images/colorhero123.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: 80%;
-  z-index: 9999; */
-    
 }
-
 header h1 {
     font-size: 2vw;
 }
-
 header a {
     text-decoration: none;
     color: var(--ylw);
 }
-
 header nav {
     margin: 7px 0;
     background-color: var(--ylw);
 
 }
-
 header nav ul {
     display: flex;
     flex-direction: row;
@@ -69,23 +52,21 @@ header nav ul {
     align-items: center;
     list-style: none;
 }
-
 header nav ul li a {
     padding: 10px 25px;
     font-weight: lighter;
     font-size: 1.55vw;
     color: var(--red);
   }
-  
   header nav ul li a:hover {
       background: var(--orng3);
       color: var(--purp);
       border-radius: 15px;
       text-shadow: none;
-      
-  }
+}
+/* header and nav end */
 
-  /* header and nav end */
+
 
 /* hero */
 .hero {
@@ -101,15 +82,11 @@ header nav ul li a {
     padding-right: 3%;
     
 }
-
-
 /* hero end */
 
-/* bio how i want other sections*/
 
 
-
-
+/* bio */
 .about-me {
 width: 96%;
 margin: 4% 2% 4% 2%;
@@ -118,8 +95,6 @@ justify-content: space-around;
 border-top: 3px solid #000000;
 border-bottom: 3px solid #000000;
 padding: 2% 0 2% 0;
-
-
 }
 .header {
 width: 15%;
@@ -128,97 +103,27 @@ border-right: 3px solid #000000;
 padding-right: 4%;
 font-size: 24px;
 font-weight: bolder;
-
-
-
 }
-
 .about-me-bio {
      width: 50%;
      text-align: right;
      font-size: 18px;
-     
-
 }
 .profile-pic {
 width: 15%;
-
-/* 
-height: auto;
-border: 10px solid #000000;
-border-radius: 15px; */
-
 }
 .profile-pic img {
     width: 100%;
     border: 10px solid #000000;
     border-radius: 15px;
-   /*  height: 100%; */
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .about-me {
-    display: flex;
-    flex-direction: row;
-    margin: 40px 20px 40px 20px
-}
-
-
-
-.about-me h3 {
-    font-size: 40px;
-    font-weight: bolder;
-    display: flex;
-    width: 15%;
-    
-}
-
-.about-me-header {
-    
-    border-right: 3px solid var(--purp);
-}
-
-.about-me img {
-    width: 275px;
-    height: 350px;
-    border: 7px solid var(--orng3);
-    border-radius: 15px;
-    
-}
-
-.am {
-    width: auto;
-}
-
-.about-me p {
-    width: 85%;
-    text-align: right;
-    display: flex;
-    margin: 20px 20px 20px 20px;
-}
-
-
- */
-
 /* bio end */
 
+
+
 /* project display */
-
-
 .main {
-    width: 96%;
+width: 96%;
 margin: 4% 2% 4% 2%;
 display: flex;
 justify-content: space-around;
@@ -226,7 +131,6 @@ border-top: 3px solid #000000;
 border-bottom: 3px solid #000000;
 padding: 2% 0 2% 0;
 }
-
 .project-header {
     width: 15%;
     text-align: right;
@@ -235,13 +139,11 @@ padding: 2% 0 2% 0;
     font-size: 24px;
     font-weight: bolder;
 }
-
 .projects {
     width: 71.5%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    
 }
 .proj:first-child {
     flex-grow: 2;
@@ -254,8 +156,6 @@ padding: 2% 0 2% 0;
 } 
 .run-buddy{
 min-width: 100%;
-
-
 }
 .proj {
     width: 45%;
@@ -264,140 +164,43 @@ min-width: 100%;
     background-color: var(--ylw);
     min-height: 200px;
     border-radius: 15px;
-
     display: flex;
     align-items: flex-end;
-
-    
 }
-
 .proj:last-child {
     background-image: url();
     background-size: cover;
     background-position: center;
 }
 .proj:hover{
-
     border:8px solid var(--orng3);
     /* add purp color text  */
-
 }
-
 .proj span {
     width: 100%;
     background-color: var(--ylw);
     color: var(--red);
     display: flex;
     justify-content: center;
-
-    
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .main { 
-    width: 100%;
-    margin: 50px auto;
-    padding: 20px;
-    border-top: 7px solid var(--orng3);
-    border-bottom: 7px solid var(--orng3);
-}
-
-/*.main h3 {
-    border-right:15px solid var(--purp);
-
-}
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-
-}
-
-.flex-item {
-    width: 45%;
-    border-radius: 15px;
-    border: 15px solid var(--orng3);
-    background-color: cyan;
-    min-height: 250px;
-    padding: 20px 0;
-    align-items: flex-end;
-}
-
-.flex-item:first-child {
-    display: flex;
-    flex-grow: 2;
-    justify-content: space-between;
-    margin: 0 20% 0 20%;
-    background-image: url(./images/runbuddy-portfolio-img.jpg);
-    background-position: center;
-    background-size: cover;
-}
-
-.run-buddy {
-width: 100%;
-}
-
-*/
-
-
-
-
-
-
-/*background-image: url(./images/runbuddy-portfolio-img.jpg);
-
 /* project display end */
 
 
-  /* contact */
-  .contact {
+
+/* contact */
+.contact {
       background-color: var(--ylw);
       width: 100%;
       display: flex;
       justify-content: space-around;
       padding: 2% 0 2% 0;
       color: var(--red);
-
   }
-
-  .contact h3 {
+.contact h3 {
       font-size: 1.70vw;
       font-weight: bolder;
       width: 100%;
       text-align: right;
-      
-
 }
 .contact div {
     display: flex;
@@ -406,56 +209,44 @@ width: 100%;
     margin: 7px 0;
 
 }
-
 .contact div p, .contact div a {
     font-size: 1.20vw;
     padding: 10px 25px;
     text-decoration: none;
     color: var(--red);
 }
-
-
 .contact div p:hover, .contact div a:hover {
-
 color: var(--purp);
 background: var(--orng3);
 border-radius: 15px;
-
 }
-
-
 /* contact end */
 
-/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
 
 header {
     justify-content: center;
     position: relative;
 }
-
 header h1 {
     width: 100%; 
     text-align: center;
 }
-
 header nav ul {
     margin-top: 20px;
     width: 100%;
     justify-content: center;
 }
-
 footer h3, footer div {
     text-align: center;
     width: 100%;
 }
-
 }
 
-
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
-
 @media screen and (max-width: 768px) {
 
 
