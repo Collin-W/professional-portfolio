@@ -80,7 +80,6 @@ header nav ul li a {
 .hero h2 {
     text-align: end;
     padding-right: 3%;
-    
 }
 /* hero end */
 
@@ -174,14 +173,25 @@ min-width: 100%;
 }
 .proj:hover{
     border:8px solid var(--orng3);
+    
     /* add purp color text  */
 }
 .proj span {
     width: 100%;
     background-color: var(--ylw);
     color: var(--red);
+    padding: 8px 0 8px 0;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top: 4.5px solid var(--red);
+    font-size: large;
+    font-weight: bolder;
     display: flex;
     justify-content: center;
+}
+.proj span:hover{
+    color: var(--purp);
+    border-top:8px solid var(--orng3);
 }
 /* project display end */
 
