@@ -4,12 +4,19 @@
     padding: 0;
 }
 :root {
-    --red: #AA2E44;
-    --lghtred: #fab1a0;
-    --orng3: #F9AD57;
-    --ylw: #F5D463;
-    --purp: #C6C1FF;
-    --blk: #000000;
+    /* --red: #AA2E44;     */
+    /* --lghtred: #fab1a0; */
+    /* --orng3: #F9AD57; */
+    /* --ylw: #F5D463; */
+    /* --purp: #C6C1FF; */
+    /* --blk: #000000; */
+    --red: #C7BD97;
+    --lghtred: #F8C98C;
+    --orng3: #B67650;
+    --ylw:  #050403;
+    --purp:  ;
+
+
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -80,6 +87,7 @@ header nav ul li a {
 .hero h2 {
     text-align: end;
     padding-right: 3%;
+    
 }
 /* hero end */
 
@@ -143,6 +151,7 @@ padding: 2% 0 2% 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    
 }
 .proj:first-child {
     flex-grow: 2;
@@ -153,18 +162,30 @@ padding: 2% 0 2% 0;
     min-height: 275px;
     border-radius: 15px;
 } 
-.run-buddy{
-min-width: 100%;
-}
+
+
+
+
 .proj {
     width: 45%;
     margin: 4% 2% 4% 2%;
-    border:4.5px solid var(--red);
+
+
+    
+    
+    
+    
+
+
+
+
+
     background-color: var(--ylw);
     min-height: 200px;
     border-radius: 15px;
     display: flex;
     align-items: flex-end;
+    text-decoration: none;
 }
 .proj:last-child {
     background-image: url();
@@ -172,7 +193,10 @@ min-width: 100%;
     background-position: center;
 }
 .proj:hover{
-    border:8px solid var(--orng3);
+    border:8px solid var(--ylw);
+    color: #B67650;
+
+   
     
     /* add purp color text  */
 }
@@ -188,11 +212,11 @@ min-width: 100%;
     font-weight: bolder;
     display: flex;
     justify-content: center;
+    
 }
-.proj span:hover{
-    color: var(--purp);
-    border-top:8px solid var(--orng3);
-}
+.proj span:hover{}
+   
+    
 /* project display end */
 
 
@@ -260,6 +284,36 @@ footer h3, footer div {
 @media screen and (max-width: 768px) {
 
 
+.hero h2 {
+    font-size: 22px;
+}
+
+.proj {
+
+    display: flex;
+    flex-direction: column;
+
+}
+.proj span {
+    border-radius: 15px;
+
+
+}
+header h1{
+    font-size: 4vw;
+}
+header nav ul li a {
+    font-size: 3vw;
+}
+
+.contact h3 {
+    font-size: 2.8vw;
+}
+.contact div p, .contact div a{
+    font-size: 1.9vw;
+}
+
+
 }
 
 
@@ -267,5 +321,23 @@ footer h3, footer div {
 
 @media screen and (max-width: 575px) {
 
+    .about-me {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .projects {
+        display: flex;
+        flex-direction: column;
+    }
+
 
 }
+
+
+/* background: rgb(28,242,245);
+    background: linear-gradient(90deg, rgba(28,242,245,1) 25%, rgba(210,153,244,1) 64%);
+     */
