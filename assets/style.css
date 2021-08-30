@@ -172,8 +172,29 @@ padding: 2% 0 2% 0;
     align-items: flex-end;
     text-decoration: none;
 }
+
+.proj:nth-child(2) {
+    background-image: url(./images/Matrix-Numbers.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.proj:nth-child(3) {
+    background-image: url(./images/download.jpg);
+    background-size: cover;
+    background-position: center;
+
+
+}
+.proj:nth-child(4) {
+    background-image: url(./images/1_gS5wa1Xn_zjuRMORDhPkcw.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
 .proj:last-child {
-    background-image: url();
+    background-image: url(./images/Jojo\ Pen\ -\ Copy.jpg);
     background-size: cover;
     background-position: center;
 }
