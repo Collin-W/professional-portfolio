@@ -162,24 +162,9 @@ padding: 2% 0 2% 0;
     min-height: 275px;
     border-radius: 15px;
 } 
-
-
-
-
 .proj {
     width: 45%;
     margin: 4% 2% 4% 2%;
-
-
-    
-    
-    
-    
-
-
-
-
-
     background-color: var(--ylw);
     min-height: 200px;
     border-radius: 15px;
@@ -195,10 +180,6 @@ padding: 2% 0 2% 0;
 .proj:hover{
     border:8px solid var(--ylw);
     color: #B67650;
-
-   
-    
-    /* add purp color text  */
 }
 .proj span {
     width: 100%;
@@ -241,7 +222,6 @@ padding: 2% 0 2% 0;
     align-items: center;
     justify-content: space-between;
     margin: 7px 0;
-
 }
 .contact div p, .contact div a {
     font-size: 1.20vw;
@@ -287,17 +267,12 @@ footer h3, footer div {
 .hero h2 {
     font-size: 22px;
 }
-
 .proj {
-
     display: flex;
     flex-direction: column;
-
 }
 .proj span {
     border-radius: 15px;
-
-
 }
 header h1{
     font-size: 4vw;
@@ -305,15 +280,12 @@ header h1{
 header nav ul li a {
     font-size: 3vw;
 }
-
 .contact h3 {
     font-size: 2.8vw;
 }
 .contact div p, .contact div a{
     font-size: 1.9vw;
 }
-
-
 }
 
 
@@ -324,17 +296,41 @@ header nav ul li a {
     .about-me {
         display: flex;
         flex-direction: column;
-        margin: 0;
-        padding: 0;
-
     }
-
-    .projects {
+    .header {
+        width: 100%;
+        border: none;
+        text-align: center;
+        order: -1;
+    }
+    .about-me-bio{
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
+        padding: 2% 4% 2% 4%;
+        text-align: right;
+    }
+    .profile-pic {
+        margin: 20px 0 20px 0;
+        width: 52%;
+        order: -1;
+        align-self: center;
+        
+    }
+    .main {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        margin: auto;
+        padding: none;
     }
-
-
+    .proj {
+        width: 100%;
+    }
+    .project-header {
+        border-right: none;
+        margin-bottom: 20px;
+    }
 }
 
 
