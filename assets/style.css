@@ -4,23 +4,16 @@
     padding: 0;
 }
 :root {
-    /* --red: #AA2E44;     */
-    /* --lghtred: #fab1a0; */
-    /* --orng3: #F9AD57; */
-    /* --ylw: #F5D463; */
-    /* --purp: #C6C1FF; */
-    /* --blk: #000000; */
-    --red: #C7BD97;
-    --lghtred: #F8C98C;
-    --orng3: #B67650;
-    --ylw:  #050403;
-    --purp:  ;
-
-
+    /* --gold: #C7BD97; original color   */
+    --gold: #f7e98e;
+    --darkgold: #ffd700;
+    --tan: #F8C98C;
+    --cherry: #B67650;
+    --black:  #050403;
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: var(--lghtred);
+    background-color: var(--tan);
 }
 
 
@@ -30,9 +23,9 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: var(--ylw);
+    background-color: var(--black);
     width: 100%;
-    color: var(--red);
+    color: var(--gold);
     padding: 27px;
     margin: 0;
     /* runbuddy stick header code */
@@ -63,11 +56,11 @@ header nav ul li a {
     padding: 10px 25px;
     font-weight: lighter;
     font-size: 1.55vw;
-    color: var(--red);
+    color: var(--gold);
   }
   header nav ul li a:hover {
-      background: var(--orng3);
-      color: var(--purp);
+      background: var(--cherry);
+      color: var(--darkgold);
       border-radius: 15px;
       text-shadow: none;
 }
@@ -87,7 +80,7 @@ header nav ul li a {
 .hero h2 {
     text-align: end;
     padding-right: 3%;
-    
+
 }
 /* hero end */
 
@@ -151,7 +144,7 @@ padding: 2% 0 2% 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    
+
 }
 .proj:first-child {
     flex-grow: 2;
@@ -161,7 +154,7 @@ padding: 2% 0 2% 0;
     background-position: center;
     min-height: 275px;
     border-radius: 15px;
-} 
+}
 .proj {
     width: 45%;
     margin: 4% 2% 4% 2%;
@@ -199,38 +192,38 @@ padding: 2% 0 2% 0;
     background-position: center;
 }
 .proj:hover{
-    border:8px solid var(--ylw);
-    color: #B67650;
+    border:8px solid var(--black);
+    color: var(--cherry);
 }
 .proj span {
     width: 100%;
-    background-color: var(--ylw);
-    color: var(--red);
+    background-color: var(--cherry);
+    color: var(--gold);
     padding: 8px 0 8px 0;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
-    border-top: 4.5px solid var(--red);
+    border-top: 4.5px solid var(--black);
     font-size: large;
     font-weight: bolder;
     display: flex;
     justify-content: center;
-    
+
 }
  /* .proj span:hover{} */
-   
-    
+
+
 /* project display end */
 
 
 
 /* contact */
 .contact {
-      background-color: var(--ylw);
+      background-color: var(--black);
       width: 100%;
       display: flex;
       justify-content: space-around;
       padding: 2% 0 2% 0;
-      color: var(--red);
+      color: var(--gold);
   }
 .contact h3 {
       font-size: 1.70vw;
@@ -251,8 +244,8 @@ padding: 2% 0 2% 0;
     color: var(--red);
 }
 .contact div p:hover, .contact div a:hover {
-color: var(--purp);
-background: var(--orng3);
+color: var(--darkgold);
+background: var(--cherry);
 border-radius: 15px;
 }
 /* contact end */
@@ -267,7 +260,7 @@ header {
     position: relative;
 }
 header h1 {
-    width: 100%; 
+    width: 100%;
     text-align: center;
 }
 header nav ul {
@@ -336,7 +329,7 @@ header nav ul li a {
         width: 52%;
         order: -1;
         align-self: center;
-        
+
     }
     .main {
         display: flex;
