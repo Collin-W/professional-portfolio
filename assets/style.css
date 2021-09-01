@@ -308,26 +308,21 @@ header nav ul li a {
 @media screen and (max-width: 575px) {
 
     body {
-        width: 100%;
+        width: fit-content;
     }
-
     .about-me {
         display: flex;
         flex-direction: column;
     }
-    
-
     header {
         padding-bottom: 0;
         justify-content: center;
         position: relative;
     }
-
     header h1 {
         width: 100%;
         font-size: 22px;
     }
-
     header nav ul {
         margin-top: 20px;
         width: 100%;
@@ -337,33 +332,15 @@ header nav ul li a {
     header nav ul li {
         font-size: 20px;
     }
-
     .hero h2 {
         font-size: 19px;
     }
 
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .header {
+        border: none;
+        width: 100%;
+        text-align: center;
+    }
     .about-me-bio{
         width: 100%;
         text-align: center;
@@ -386,10 +363,8 @@ header nav ul li a {
         padding: none;
         border-bottom: none;
     }
-    
     .proj {
         width: 100%;
-
     }
     .project-header {
         border-right: none;
@@ -398,9 +373,16 @@ header nav ul li a {
         justify-content: center;
         text-align: center;
     }
-
-    .contact div p, .contact div a {
+    .contact {
+        width: fit-content;
+    }
+    .contact div h3 {
         font-size: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .contact div p, .contact div a {
+        font-size: 16px;
     }
 }
 
