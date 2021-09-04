@@ -243,7 +243,8 @@ padding: 2% 0 2% 0;
     text-decoration: none;
     color: var(--red);
 }
-.contact div p:hover, .contact div a:hover {
+/* .contact div p:hover, */
+.contact div a:hover {
 color: var(--darkgold);
 background: var(--cherry);
 border-radius: 15px;
