@@ -70,7 +70,7 @@ header nav ul li a {
 
 /* hero */
 .hero {
-    background-image: url("/assets/images/colorhero123.jpg");
+    background-image: url("/assets/images/main\ images/colorhero123.jpg");
     background-position: cover;
     background-size: cover;
     width: 100%;
@@ -151,7 +151,7 @@ padding: 2% 0 2% 0;
 .proj:first-child {
     flex-grow: 2;
     margin: 0 15% 0 15%;
-    background-image: url(/assets/images/runbuddy-portfolio-img.jpg);
+    background-image: url("/assets/images/main\ images/runbuddy-portfolio-img.jpg");
     background-size: cover;
     background-position: center;
     min-height: 275px;
@@ -169,27 +169,27 @@ padding: 2% 0 2% 0;
 }
 
 .proj:nth-child(2) {
-    background-image: url(/assets/images/Matrix-Numbers.jpg);
+    background-image: url("/assets/images/main\ images/Matrix-Numbers.jpg");
     background-size: cover;
     background-position: center;
 
 }
 .proj:nth-child(3) {
-    background-image: url(/assets/images/download.jpg);
+    background-image: url("/assets/images/main\ images/download.jpg");
     background-size: cover;
     background-position: center;
 
 
 }
 .proj:nth-child(4) {
-    background-image: url(/assets/images/1_gS5wa1Xn_zjuRMORDhPkcw.jpg);
+    background-image: url("/assets/images/main\ images/1_gS5wa1Xn_zjuRMORDhPkcw.jpg");
     background-size: cover;
     background-position: center;
 
 }
 
 .proj:last-child {
-    background-image: url(/assets/images/Jojo\ Pen\ -\ Copy.jpg);
+    background-image: url("/assets/images/main\ images/Jojo\ Pen\ -\ Copy.jpg");
     background-size: cover;
     background-position: center;
 }
