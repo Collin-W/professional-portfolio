@@ -10,6 +10,10 @@ https://collin-w.github.io/professional-portfolio/
 - advanced CSS design, style subject to change
 - a personal hobby section
 
+## Technologies Used:
+- HTML
+- CSS
+- 
 
 ## Contributor:
 - Collin Whalen 2021
