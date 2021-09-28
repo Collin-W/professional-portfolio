@@ -10,6 +10,7 @@
     --tan: #F8C98C;
     --cherry: #B67650;
     --black:  #050403;
+
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -57,6 +58,7 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 1.55vw;
     color: var(--gold);
+
   }
   header nav ul li a:hover {
       background: var(--cherry);
@@ -82,6 +84,7 @@ header nav ul li a {
     font-weight: bolder;
     text-align: end;
     padding-right: 3%;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 
 }
 /* hero end */
@@ -101,10 +104,17 @@ padding: 2% 0 2% 0;
 .header {
 width: 15%;
 text-align: right;
-border-right: 3px solid #000000;
-padding-right: 4%;
+/* border-right: 10px solid black; */
+/* padding-right: 4%; */
 font-size: 24px;
 font-weight: bolder;
+
+}
+#gradient-bio {
+    width: 4.7px;
+    background: rgb(28,242,245);
+    background: linear-gradient(180deg, rgba(28,242,245,1) 25%, rgba(210,153,244,1) 64%);
+    border-radius: 15px;
 }
 .about-me-bio {
      width: 50%;
@@ -118,6 +128,7 @@ width: 15%;
     width: 100%;
     border: 10px solid #000000;
     border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 /* bio end */
 
@@ -134,12 +145,18 @@ border-bottom: 3px solid #000000;
 padding: 2% 0 2% 0;
 }
 .project-header {
-    width: 15%;
+    width: 16.55%;
     text-align: right;
-    border-right: 3px solid #000000;
-    padding-right: 4%;
+    /* border-right: 3px solid #000000; */
+    /* padding-right: 4%; */
     font-size: 24px;
     font-weight: bolder;
+}
+#gradient-proj {
+    width: 4.7px;
+    background: rgb(210,153,244);
+    background: linear-gradient(180deg, rgba(210,153,244,1) 0%, rgba(252,251,123,1) 95%);
+    border-radius: 15px;
 }
 .projects {
     width: 71.5%;
@@ -156,6 +173,7 @@ padding: 2% 0 2% 0;
     background-position: center;
     min-height: 275px;
     border-radius: 15px;
+    
 }
 .proj {
     width: 45%;
@@ -166,6 +184,7 @@ padding: 2% 0 2% 0;
     display: flex;
     align-items: flex-end;
     text-decoration: none;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
 
 .proj:nth-child(2) {
@@ -194,7 +213,7 @@ padding: 2% 0 2% 0;
     background-position: center;
 }
 .proj:hover{
-    border:8px solid var(--black);
+    border:6px solid var(--black);
     color: var(--cherry);
 }
 .proj span {
@@ -258,7 +277,7 @@ border-radius: 15px;
     display: flex;
    margin: auto;
     width: 100%;
-    
+
     border-radius: 15px;
 }
 
