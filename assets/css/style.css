@@ -111,9 +111,12 @@ font-weight: bolder;
 
 }
 #gradient-bio {
-    width: 4.7px;
-    background: rgb(28,242,245);
-    background: linear-gradient(180deg, rgba(28,242,245,1) 25%, rgba(210,153,244,1) 64%);
+    width: 6px;
+    background: rgb(201,169,216);
+    background: linear-gradient(180deg, rgba(255,226,128,1) 30%, rgba(201,169,216,1) 64%);
+    border: 0.7px solid black;
+    /* background: rgb(28,242,245);
+    background: linear-gradient(180deg, rgba(28,242,245,1) 25%, rgba(210,153,244,1) 64%); */
     border-radius: 15px;
 }
 .about-me-bio {
@@ -153,9 +156,13 @@ padding: 2% 0 2% 0;
     font-weight: bolder;
 }
 #gradient-proj {
-    width: 4.7px;
-    background: rgb(210,153,244);
-    background: linear-gradient(180deg, rgba(210,153,244,1) 0%, rgba(252,251,123,1) 95%);
+    width: 6px;
+    background: rgb(28,242,245);
+    background: linear-gradient(180deg, rgba(201,169,215,1) 23%, rgba(28,242,245,1) 82%);
+    border: 0.7px solid black;
+   
+    /* background: rgb(210,153,244);
+    background: linear-gradient(180deg, rgba(210,153,244,1) 0%, rgba(252,251,123,1) 95%); */
     border-radius: 15px;
 }
 .projects {
@@ -173,7 +180,7 @@ padding: 2% 0 2% 0;
     background-position: center;
     min-height: 275px;
     border-radius: 15px;
-    
+
 }
 .proj {
     width: 45%;
@@ -194,7 +201,7 @@ padding: 2% 0 2% 0;
 
 }
 .proj:nth-child(3) {
-    background-image: url("/assets/images/main\ images/download.jpg");
+    background-image: url("/assets/images/main\ images/ images\Screenshot (28).png");
     background-size: cover;
     background-position: center;
 
