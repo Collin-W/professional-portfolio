@@ -156,14 +156,20 @@ padding: 2% 0 2% 0;
     font-weight: bolder;
 }
 #gradient-proj {
-    width: 6px;
+    width: 15px;
     background: rgb(28,242,245);
     background: linear-gradient(180deg, rgba(201,169,215,1) 23%, rgba(28,242,245,1) 82%);
     border: 0.7px solid black;
+    transition: all 0.1s ease-out; 
+    background-size: 1px 1000px; 
+    background-position: 0px -10px;
    
     /* background: rgb(210,153,244);
     background: linear-gradient(180deg, rgba(210,153,244,1) 0%, rgba(252,251,123,1) 95%); */
     border-radius: 15px;
+}
+#gradient-proj:hover {
+    background-position: 1px -300px;
 }
 .projects {
     width: 71.5%;
@@ -282,9 +288,9 @@ border-radius: 15px;
 /* test */
 .knot-pattern {
     display: flex;
-   margin: auto;
+    margin: auto;
     width: 100%;
-
+    height: 100%;
     border-radius: 15px;
 }
 
