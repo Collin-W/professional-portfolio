@@ -19,3 +19,4 @@ https://collin-w.github.io/professional-portfolio/
 - Collin Whalen 2021
 
 
+<img align="left" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=Collin-W&show_icons=true&hide_border=true"/>
