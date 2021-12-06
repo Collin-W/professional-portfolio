@@ -58,14 +58,47 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 1.55vw;
     color: var(--gold);
+    /* hover  */
+    margin: 0 20px 0 20px;
+    background: var(--tan);
+    color: var(--black);
+    border-radius: 15px;
+    text-shadow: none;
+
 
   }
-  header nav ul li a:hover {
-      background: var(--cherry);
+#nav1:hover {
+    background: rgb(248,201,140);
+    background: linear-gradient(90deg, rgba(248,201,140,1) 13%, rgba(130,210,255,1) 89%);
       color: var(--darkgold);
       border-radius: 15px;
       text-shadow: none;
 }
+
+#nav2:hover {
+    background: rgb(130,210,255);
+    background: linear-gradient(90deg, rgba(130,210,255,1) 17%, rgba(246,218,246,1) 52%);
+      color: var(--darkgold);
+      border-radius: 15px;
+      text-shadow: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* header and nav end */
 
 
@@ -111,7 +144,7 @@ font-weight: bolder;
 
 }
 #gradient-bio {
-    width: 6px;
+    width: 15px;
     background: rgb(201,169,216);
     background: linear-gradient(180deg, rgba(255,226,128,1) 30%, rgba(201,169,216,1) 64%);
     border: 0.7px solid black;
@@ -168,9 +201,7 @@ padding: 2% 0 2% 0;
     background: linear-gradient(180deg, rgba(210,153,244,1) 0%, rgba(252,251,123,1) 95%); */
     border-radius: 15px;
 }
-#gradient-proj:hover {
-    background-position: 1px -300px;
-}
+
 .projects {
     width: 71.5%;
     display: flex;
@@ -181,7 +212,7 @@ padding: 2% 0 2% 0;
 .proj:first-child {
     flex-grow: 2;
     margin: 0 15% 0 15%;
-    background-image: url("/assets/images/main\ images/runbuddy-portfolio-img.jpg");
+    background-image: url("assets\images\main images\capital-op.png");
     background-size: cover;
     background-position: center;
     min-height: 275px;
