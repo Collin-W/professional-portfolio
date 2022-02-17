@@ -13,7 +13,7 @@ https://collin-w.github.io/professional-portfolio/
 ## Technologies Used:
 - HTML
 - CSS
-- 
+- JavaScript
 
 ## Contributor:
 - Collin Whalen 2021
