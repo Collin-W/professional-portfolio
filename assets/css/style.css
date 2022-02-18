@@ -99,15 +99,21 @@ header nav ul li a:hover {
 .get-in-touch {
   transition: background-color 0s, text-decoration-color 0.5s;
   color: black;
-  text-decoration: var(--pistachio) wavy underline;
+  /* text-decoration: var(--pistachio) wavy underline; */
 
-
+  text-decoration: none;
   /* test */
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   /* min-height: 1vh; */
   background: var(--seafoam);
+}
+.animation{
+  justify-content: space-around;
+  font-size: 2.5rem;
+  font-family: var(--OpenSansCondensed);
+  /* font-size: 2.5rem; */
 }
 .get-in-touch:hover {
   border-radius: 15px;
@@ -115,22 +121,25 @@ header nav ul li a:hover {
   background-color: var(--mint);
 }
 .wavy{
+  z-index: 5;
   position:relative;
+  align-self: flex-end;
   width: 156px;
   height: 20px;
   background: var(--seafoam);
   overflow: hidden;
 }
 .wavy::before{
-  content: 'aaaaaaaaa';
+  content: 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa';
   position: absolute;
-  top: -85px;
+  
+  top: -69px;
   left: 0;
-  font-size: 4em;
+  font-size: 1.5em;
   text-decoration-style: wavy;
   text-decoration-color: var(--pistachio);
   text-decoration-line: underline;
-  animation: animate 4s linear infinite;
+  animation: animate 25s linear infinite;
 }
 @keyframes animate {
   0%
@@ -139,7 +148,7 @@ header nav ul li a:hover {
   }
   100%
   {
-      transform: translate(-180px);
+      transform: translate(-800px);
   }
 }
 
