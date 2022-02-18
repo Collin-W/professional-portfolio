@@ -149,6 +149,23 @@ header nav ul li a:hover {
   /* border: 4px solid green; */
   border-radius: 15px;
 }
+.bio-contact{
+  background-color: var(--seafoam);
+  margin: 0 2% 2% 2%;
+  border-radius: 15px;
+
+}
+.get-in-touch{
+  
+  transition: background-color 0s, text-decoration-color 0.5s;
+  color: black;
+  text-decoration: var(--pistachio) wavy underline;
+}
+.get-in-touch:hover{
+  border-radius: 15px;
+  color: inherit;
+  background-color: var(--mint);
+}
 
 /* need these two to keep profile picture aligned with bio */
 .profile-pic {
