@@ -1,0 +1,22 @@
+{
+  "name": "02-professional-portfolio",
+  "version": "1.0.0",
+  "description": "https://collin-w.github.io/professional-portfolio/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Collin-W/portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Collin-W/portfolio/issues"
+  },
+  "homepage": "https://github.com/Collin-W/portfolio#readme",
+  "dependencies": {
+    "font-awesome": "^4.7.0"
+  }
+}
