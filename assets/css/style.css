@@ -196,7 +196,7 @@ header nav ul li a {
 }
 .proj:first-child {
   flex-grow: 2;
-  margin: 0 15% 0 15%;
+  margin: 3% 15% 3% 15%;
   background-image: url("../images/Capital\ Opulence\ Screen\ Shot.png");
   background-size: cover;
   background-position: center;
@@ -208,12 +208,12 @@ header nav ul li a {
 
 .proj:first-child:hover {
   flex-grow: 2;
-  margin: 0 15% 0 15%;
+  margin: 3% 15% 3% 15%;
   background-image: url("../images/gifs/Capital\ Opulence\ Gif.gif");
   background-size: cover;
   background-position: center;
-  min-height: 100%;
-  min-width: 100%;
+  min-height: 400px;
+  min-width: 575px;
   border-radius: 15px;
 }
 .proj {
@@ -228,16 +228,51 @@ header nav ul li a {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
 
+
 .proj:nth-child(2) {
-  background-image: url("/assets/images/main\ images/Matrix-Numbers.jpg");
+  flex-grow: 2;
+  margin: 3% 15% 3% 15%;
+  background-image: url("../images/Mantis-Mocha-Screenshot.png");
   background-size: cover;
   background-position: center;
+  height: 400px  ;
+  width: 500px; 
+  border-radius: 15px;
 }
+.proj:nth-child(2):hover {
+  flex-grow: 2;
+  margin: 3% 15% 3% 15%;
+  background-image: url("../images/gifs/Mantis-Mocha-Gif.gif");
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+  min-width: 575px; 
+  border-radius: 15px;
+}
+
+
 .proj:nth-child(3) {
-  background-image: url("/assets/images/main\ images/ images\Screenshot (28).png");
-  background-size: cover;
-  background-position: center;
-}
+    flex-grow: 2;
+    margin: 3% 15% 3% 15%;
+    background-image: url("../images/Movie-Finder-Screen-Shot.png");
+    background-size: cover;
+    background-position: center;
+    height: 400px  ;
+    width: 500px; 
+    border-radius: 15px;
+  }
+  .proj:nth-child(3):hover {
+    flex-grow: 2;
+    margin: 3% 15% 3% 15%;
+    background-image: url("../images/gifs/Movie-Finder-Gif.gif");
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    min-width: 575px; 
+    border-radius: 15px;
+  }
+
+
 .proj:nth-child(4) {
   background-image: url("/assets/images/main\ images/1_gS5wa1Xn_zjuRMORDhPkcw.jpg");
   background-size: cover;
