@@ -137,7 +137,7 @@ header nav ul li a:hover {
   left: 0;
   font-size: 1.5em;
   text-decoration-style: wavy;
-  text-decoration-color: var(--pistachio);
+  text-decoration-color: var(--mint);
   text-decoration-line: underline;
   animation: animate 25s linear infinite;
 }
@@ -302,7 +302,6 @@ header nav ul li a:hover {
   display: flex;
   justify-content: space-around;
   padding: 2% 0 2% 0;
-  color: var(--gold);
   margin-top: auto;
 }
 .contact h3 {

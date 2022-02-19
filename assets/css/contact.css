@@ -1,0 +1,124 @@
+.home{
+    text-decoration: none;
+    color: var(--black);
+}
+.home:hover{
+    
+    color: inherit;
+}
+
+#contact-sections {
+display: flex;
+justify-content: space-between;
+margin: 2% auto 2% auto;
+}
+.contact-bar{
+  font-family: var(--OpenSansCondensed);
+  background-color: var(--mint);
+  opacity: 0.9;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2% 0 2% 0;
+  margin-top: auto;
+ 
+}
+.contact-bar-text{
+    text-decoration: none;
+    color: var(--black);
+    font-size: 24px;
+}
+.contact-bar-text:hover{
+    color: inherit;
+}
+
+form {
+    padding: 0 10px;
+    width: 50%;
+  }
+  
+  .contact__formContainer {
+    margin: 10px;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--mint) ;
+    font-family: var(--OpenSansCondensed);
+    opacity: 0.9;
+    padding: 20px;
+    border-radius: 15px;
+    width: auto;
+  }
+  
+  
+  .contact__h1 {
+    align-self: flex-start;
+  }
+  
+  .contact__errorText {
+    color: red;
+    text-shadow: 0 0 10px black;
+  }
+  
+  .contact__submitButton {
+    background: none;
+    color: inherit;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding: 5px;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+  }
+  
+  .contact__submitButton:active {
+    background-color: black;
+    color: white;
+  }
+  
+  .contact__inputContainer {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    width: 100%;
+  }
+  
+  .contact__inputContainer input,
+  textarea {
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+  
+  /* @media screen and (max-width: 768px) {
+    form {
+      border: 2px solid black;
+      border-radius: 5px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 75%;
+    }
+  
+    .contact__formContainer {
+      align-items: center;
+    }
+  
+    .contact__h1 {
+      align-self: center;
+    }
+  
+    .contact__submitButton {
+      margin: 5px;
+    }
+  }
+  
+  @media screen and (max-width: 425px) {
+    form {
+      width: 90%;
+    }
+  } */
