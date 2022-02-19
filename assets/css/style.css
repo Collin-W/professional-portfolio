@@ -93,7 +93,7 @@ header nav ul li a:hover {
 /* want to talk/get in touch start */
 .bio-contact {
   background-color: var(--seafoam);
-  margin: 0 2% 2% 2%;
+  margin: 10% 2% 0% 2%;
   border-radius: 15px;
 }
 .get-in-touch {
@@ -167,7 +167,7 @@ header nav ul li a:hover {
 
 /* need these two to keep profile picture aligned with bio */
 .profile-pic {
-  width: 30%;
+  width: 40%;
   border-radius: 15px;
 }
 .profile-pic img {
