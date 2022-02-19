@@ -191,7 +191,8 @@ header nav ul li a:hover {
 }
 .project-header {
   width: 16.55%;
-  text-align: right;
+  text-align: left;
+  margin: 2% 0 2% 0;
   font-size: 24px;
   font-weight: bolder;
 }
@@ -204,7 +205,7 @@ header nav ul li a:hover {
 }
 .proj-1 {
   flex-grow: 2;
-  margin: 3% 15% 3% 15%;
+  
   background-image: url("../images/Capital\ Opulence\ Screen\ Shot.png");
   background-size: cover;
   background-position: center;
@@ -215,7 +216,7 @@ header nav ul li a:hover {
 
 .proj-1:hover {
   flex-grow: 2;
-  margin: 3% 15% 3% 15%;
+  
   background-image: url("../images/gifs/Capital\ Opulence\ Gif.gif");
   background-size: cover;
   background-position: center;
@@ -225,6 +226,8 @@ header nav ul li a:hover {
 }
 .proj {
   width: 45%;
+  margin: 0% 15% 3% 15%;
+
   /* margin: 4% 2% 4% 2%; */
   min-height: 200px;
   border-radius: 15px;
@@ -236,7 +239,7 @@ header nav ul li a:hover {
 
 .proj-2 {
   flex-grow: 2;
-  margin: 3% 15% 3% 15%;
+  
   background-image: url("../images/Mantis-Mocha-Screenshot.png");
   background-size: cover;
   background-position: center;
@@ -246,7 +249,7 @@ header nav ul li a:hover {
 }
 .proj-2:hover {
   flex-grow: 2;
-  margin: 3% 15% 3% 15%;
+  
   background-image: url("../images/gifs/Mantis-Mocha-Gif.gif");
   background-size: cover;
   background-position: center;
@@ -257,7 +260,7 @@ header nav ul li a:hover {
 
 .proj-3 {
   flex-grow: 2;
-  margin: 3% 15% 3% 15%;
+  
   background-image: url("../images/Movie-Finder-Screen-Shot.png");
   background-size: cover;
   background-position: center;
@@ -267,7 +270,7 @@ header nav ul li a:hover {
 }
 .proj-3:hover {
   flex-grow: 2;
-  margin: 3% 15% 3% 15%;
+  
   background-image: url("../images/gifs/Movie-Finder-Gif.gif");
   background-size: cover;
   background-position: center;
@@ -276,9 +279,10 @@ header nav ul li a:hover {
   border-radius: 15px;
 }
 .proj:hover {
-  border: 6px solid var(--black);
+  border: 4px solid var(--mint);
+  /* border-right: 10px solid var(--mint); */
 }
-.proj span {
+/* .proj span {
   width: 100%;
   padding: 8px 0 8px 0;
   border-bottom-right-radius: 15px;
@@ -288,11 +292,12 @@ header nav ul li a:hover {
   font-weight: bolder;
   display: flex;
   justify-content: center;
-}
+} */
 
 .proj-info{
-  height: 100%;
-  width: 50%;
+  margin: 0% 15% 3% 15%;
+  /* height: 100%; */
+  /* width: 100%; */
   background-color: var(--seafoam);
     justify-content: space-around;
     flex-direction: row;
@@ -301,11 +306,12 @@ header nav ul li a:hover {
     font-family: var(--OpenSansCondensed);
     text-decoration: none;
     color: var(--black);
-  
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
-.proj-info:hover{
+/* .proj-info:hover{
   color: inherit;
-}
+} */
 .proj-title{
   font-size: 1.8rem;
   font-weight: bold;
@@ -313,7 +319,18 @@ header nav ul li a:hover {
   /* padding: 2%; */
   border-radius: 15px;
 }
-
+.repo{
+ display: flex;
+ justify-content: space-around;
+  text-decoration: none;
+  color: var(--black);
+  margin: 2%;
+}
+.repo:hover{
+  color: inherit;
+  background-color: var(--mint);
+  border-radius: 15px;
+}
 /* project display end */
 
 /* contact */
