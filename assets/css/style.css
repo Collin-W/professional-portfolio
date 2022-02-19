@@ -187,7 +187,7 @@ header nav ul li a:hover {
   opacity: 0.9;
   border-radius: 15px;
   font-family: var(--OpenSansCondensed);
-  padding: 2% 0 2% 0;
+  padding: 2% 2% 2% 0;
 }
 .project-header {
   width: 16.55%;
@@ -202,7 +202,7 @@ header nav ul li a:hover {
   margin: auto;
   justify-content: space-around;
 }
-.proj:first-child {
+.proj-1 {
   flex-grow: 2;
   margin: 3% 15% 3% 15%;
   background-image: url("../images/Capital\ Opulence\ Screen\ Shot.png");
@@ -213,7 +213,7 @@ header nav ul li a:hover {
   border-radius: 15px;
 }
 
-.proj:first-child:hover {
+.proj-1:hover {
   flex-grow: 2;
   margin: 3% 15% 3% 15%;
   background-image: url("../images/gifs/Capital\ Opulence\ Gif.gif");
@@ -225,7 +225,7 @@ header nav ul li a:hover {
 }
 .proj {
   width: 45%;
-  margin: 4% 2% 4% 2%;
+  /* margin: 4% 2% 4% 2%; */
   min-height: 200px;
   border-radius: 15px;
   display: flex;
@@ -234,7 +234,7 @@ header nav ul li a:hover {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
 
-.proj:nth-child(2) {
+.proj-2 {
   flex-grow: 2;
   margin: 3% 15% 3% 15%;
   background-image: url("../images/Mantis-Mocha-Screenshot.png");
@@ -244,7 +244,7 @@ header nav ul li a:hover {
   width: 500px;
   border-radius: 15px;
 }
-.proj:nth-child(2):hover {
+.proj-2:hover {
   flex-grow: 2;
   margin: 3% 15% 3% 15%;
   background-image: url("../images/gifs/Mantis-Mocha-Gif.gif");
@@ -255,7 +255,7 @@ header nav ul li a:hover {
   border-radius: 15px;
 }
 
-.proj:nth-child(3) {
+.proj-3 {
   flex-grow: 2;
   margin: 3% 15% 3% 15%;
   background-image: url("../images/Movie-Finder-Screen-Shot.png");
@@ -265,7 +265,7 @@ header nav ul li a:hover {
   width: 500px;
   border-radius: 15px;
 }
-.proj:nth-child(3):hover {
+.proj-3:hover {
   flex-grow: 2;
   margin: 3% 15% 3% 15%;
   background-image: url("../images/gifs/Movie-Finder-Gif.gif");
@@ -289,6 +289,31 @@ header nav ul li a:hover {
   display: flex;
   justify-content: center;
 }
+
+.proj-info{
+  height: 100%;
+  width: 50%;
+  background-color: var(--seafoam);
+    justify-content: space-around;
+    flex-direction: row;
+    /* align-self: center; */
+    /* font-size: 1.5rem; */
+    font-family: var(--OpenSansCondensed);
+    text-decoration: none;
+    color: var(--black);
+  
+}
+.proj-info:hover{
+  color: inherit;
+}
+.proj-title{
+  font-size: 1.8rem;
+  font-weight: bold;
+  /* background-color: var(--seafoam); */
+  /* padding: 2%; */
+  border-radius: 15px;
+}
+
 /* project display end */
 
 /* contact */
