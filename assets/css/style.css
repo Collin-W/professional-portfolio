@@ -80,6 +80,11 @@ header nav ul li a:hover {
   font-family: var(--OpenSansCondensed);
 }
 .italicize-font {
+ 
+}
+.italicize-font-proj {
+  font-size: 20px;
+  font-style: italic;
 }
 .about-me-bio {
   background: var(--mint);
@@ -296,7 +301,8 @@ header nav ul li a:hover {
 
 .proj-info{
   margin: 0% 15% 3% 15%;
-  /* height: 100%; */
+  padding: 2% 0 0 0;
+  /* max-height: 50%; */
   /* width: 100%; */
   background-color: var(--seafoam);
     justify-content: space-around;
@@ -324,7 +330,10 @@ header nav ul li a:hover {
  justify-content: space-around;
   text-decoration: none;
   color: var(--black);
+  height: 30px;
   margin: 2%;
+  font-size: 20px;
+  font-weight: bolder;
 }
 .repo:hover{
   color: inherit;
