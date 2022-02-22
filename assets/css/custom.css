@@ -2,4 +2,8 @@
 .bootstrap-override{
     /* bootstrap class overrides that was causing many issues*/
     --bs-gutter-x: 0rem;
-    }
+}
+.proj-info p{
+    width: 92%;
+    text-align: justify;
+}

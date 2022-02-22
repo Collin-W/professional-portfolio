@@ -29,7 +29,7 @@ header {
   justify-content: space-between;
   flex-wrap: wrap;
   background: var(--mint);
-  opacity: 0.9;
+  /* opacity: 0.9; */
   width: auto;
   padding: 20px;
   margin-top: 2%;
@@ -99,7 +99,7 @@ header nav ul li a:hover {
 
 .about-me-bio {
   background: var(--mint);
-  opacity: 0.9;
+  /* opacity: 0.9; */
   width: 50%;
   text-align: right;
   font-size: 18px;
@@ -189,7 +189,7 @@ header nav ul li a:hover {
   margin-bottom: 2%;
   justify-content: space-around;
   background: var(--mint);
-  opacity: 0.9;
+  /* opacity: 0.9; */
   border-radius: 15px;
   font-family: var(--OpenSansCondensed);
   padding: 2% 2% 2% 2%;
@@ -240,10 +240,12 @@ header nav ul li a:hover {
   display: flex;
   align-items: flex-end;
   text-decoration: none;
+  z-index: 9999;
   /* box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); */
 }
 
 .proj-2 {
+
   flex-grow: 2;
   background-image: url("../images/Mantis-Mocha-Screenshot.png");
   background-size: cover;
@@ -289,7 +291,7 @@ header nav ul li a:hover {
 
 .proj-info {
   margin: 0% 15% 3% 15%;
-  padding: 2% 0 0 0;
+  padding: 2% 2% 0 2%;
   background-color: var(--seafoam);
   justify-content: space-around;
   flex-direction: row;
@@ -297,6 +299,7 @@ header nav ul li a:hover {
   text-decoration: none;
   color: var(--black);
   border-radius: 15px;
+  text-align: center;
   /* box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); */
 }
 
@@ -329,7 +332,7 @@ header nav ul li a:hover {
 .contact {
   font-family: var(--OpenSansCondensed);
   background-color: var(--mint);
-  opacity: 0.9;
+  /* opacity: 0.9; */
   margin-top: 2%;
   margin-bottom: 2%;
   border-radius: 15px;
@@ -366,10 +369,6 @@ header nav ul li a:hover {
 
 /* Utils start */
 
-.bootstrap-override{
-/* bootstrap class overrides that was causing many issues*/
---bs-gutter-x: 0rem;
-}
 
 /* Utils end*/
 
