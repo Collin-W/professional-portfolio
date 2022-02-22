@@ -1,0 +1,5 @@
+
+.bootstrap-override{
+    /* bootstrap class overrides that was causing many issues*/
+    --bs-gutter-x: 0rem;
+    }
