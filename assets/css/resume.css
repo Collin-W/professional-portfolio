@@ -4,6 +4,21 @@
     justify-content: space-around;
 }
 
+.home{
+  text-decoration: none;
+  color: var(--black);
+}
+.home:hover{
+  background-color: var(--aquamarine);
+  color: inherit;
+}
+
+.resume-nav{
+  text-decoration: line-through;
+  background-color: var(--aquamarine);
+  color: inherit;
+}
+
 .resume__wrapper {
     display: flex;
     flex-direction: column;
