@@ -145,7 +145,6 @@ header nav ul li a:hover {
 .wavy::before {
   content: 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa';
   position: absolute;
-
   top: -69px;
   left: 0;
   font-size: 1.5em;
@@ -211,26 +210,6 @@ header nav ul li a:hover {
   justify-content: space-around;
 }
 
-.proj-1 {
-  flex-grow: 2;
-  background-image: url("../images/Capital\ Opulence\ Screen\ Shot.png");
-  background-size: cover;
-  background-position: center;
-  height: 400px;
-  width: 500px;
-  border-radius: 15px;
-}
-
-.proj-1:hover {
-  flex-grow: 2;
-  background-image: url("../images/gifs/Capital\ Opulence\ Gif.gif");
-  background-size: cover;
-  background-position: center;
-  min-height: 400px;
-  min-width: 575px;
-  border-radius: 15px;
-}
-
 .proj {
   width: 100%;
   margin: 0% 0% 10% 0%;
@@ -239,48 +218,11 @@ header nav ul li a:hover {
   display: flex;
   align-items: flex-end;
   text-decoration: none;
-  z-index: 9999;
-  /* box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); */
-}
-
-.proj-2 {
-
   flex-grow: 2;
-  background-image: url("../images/Mantis-Mocha-Screenshot.png");
   background-size: cover;
   background-position: center;
   height: 400px;
   width: 500px;
-  border-radius: 15px;
-}
-
-.proj-2:hover {
-  flex-grow: 2;
-  background-image: url("../images/gifs/Mantis-Mocha-Gif.gif");
-  background-size: cover;
-  background-position: center;
-  min-height: 400px;
-  min-width: 575px;
-  border-radius: 15px;
-}
-
-.proj-3 {
-  flex-grow: 2;
-  background-image: url("../images/Movie-Finder-Screen-Shot.png");
-  background-size: cover;
-  background-position: center;
-  height: 400px;
-  width: 500px;
-  border-radius: 15px;
-}
-
-.proj-3:hover {
-  flex-grow: 2;
-  background-image: url("../images/gifs/Movie-Finder-Gif.gif");
-  background-size: cover;
-  background-position: center;
-  min-height: 400px;
-  min-width: 575px;
   border-radius: 15px;
 }
 
@@ -299,7 +241,6 @@ header nav ul li a:hover {
   color: var(--black);
   border-radius: 15px;
   text-align: center;
-  /* box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); */
 }
 
 .proj-title {
@@ -323,6 +264,34 @@ header nav ul li a:hover {
   color: inherit;
   background-color: var(--mint);
   border-radius: 15px;
+}
+
+/* my project img and gif area */
+/* CO */
+.proj-1 {
+  background-image: url("../images/Capital\ Opulence\ Screen\ Shot.png");
+}
+
+.proj-1:hover {
+  background-image: url("../images/gifs/Capital\ Opulence\ Gif.gif");
+}
+
+/* MM */
+.proj-2 {
+  background-image: url("../images/Mantis-Mocha-Screenshot.png");
+}
+
+.proj-2:hover {
+  background-image: url("../images/gifs/Mantis-Mocha-Gif.gif");
+}
+
+/* MF */
+.proj-3 {
+  background-image: url("../images/Movie-Finder-Screen-Shot.png");
+}
+
+.proj-3:hover {
+  background-image: url("../images/gifs/Movie-Finder-Gif.gif");
 }
 
 /* project display end */
