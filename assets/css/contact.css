@@ -14,6 +14,18 @@
   margin: 2% auto 2% auto;
 }
 
+.contact-header{
+ 
+  justify-content: space-between;
+  display: flex;
+  /* text-decoration: none;
+  border: none; */
+}
+.contact-circle-question{
+  background-color: var(--mint);
+
+}
+
 .contact-bar {
   font-family: var(--OpenSansCondensed);
   background-color: var(--mint);
@@ -43,7 +55,7 @@
 
 form {
   padding: 0 10px;
-  width: 50%;
+  width: 90%;
 }
 
 .contact__formContainer {

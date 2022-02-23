@@ -27,6 +27,7 @@
     background-color: var(--mint);
     /* border: 7px solid ; */
     border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
   
   .resume__title {
@@ -48,7 +49,9 @@
     width: 95%;
     height: 800px;
   }
-  
+  #contact-me{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
   @media screen and (max-width: 1024px) {
     .resume__title {
       font-size: 4vw;
