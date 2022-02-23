@@ -74,7 +74,7 @@ form {
 .contact__submitButton {
   background: none;
   color: inherit;
-  border: 3px solid black;
+  border: 2px solid black;
   border-radius: 10px;
   margin-left: 10px;
   padding: 5px;
@@ -82,9 +82,12 @@ form {
   cursor: pointer;
   outline: inherit;
 }
+.contact__submitButton:hover{
+  background-color: var(--aquamarine);
+}
 
 .contact__submitButton:active {
-  background-color: black;
+  background-color: var(--mint);
   color: white;
 }
 
