@@ -365,6 +365,10 @@ header nav ul li a:hover {
     width: 100%;
   }
 
+  .about-me-bio {
+    margin-bottom: 2%; 
+  }
+
   .proj {
     margin-bottom: 2%;
   }
