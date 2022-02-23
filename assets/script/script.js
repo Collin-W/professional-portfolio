@@ -36,3 +36,34 @@ $(document).ready(function () {
     });
 
 });
+
+
+// <!-- <div class="contact-header">
+//             <button id="contact-circle-question" ><i class="fa-solid fa-circle-question"></i></button>
+//             </div> -->
+
+
+
+// <!-- <div id="myToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+//         <div class="toast-header">
+//           <button type="button" class="ml-2 mb-1 close dismiss-toast" data-dismiss="toast" aria-label="Close">
+//             <span aria-hidden="true">&times;</span>
+//           </button>
+//         </div>
+//         <div class="toast-body">
+//           This form will directly email me.
+//         </div>
+//       </div> -->
+
+// $('#contact-form').click(() => {
+         
+       // console.log('test')
+       //  })
+// <!-- 
+// } else {
+//     var regEx = /^[A-Z0-9][A-Z0-9._%+-]{0,63}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/;
+//     var validEmail = regEx.test(email);
+//     if (!validEmail) {
+//         $('#email').after('<span class="error">Enter a valid email</span>');
+//     }
+// }  -->
