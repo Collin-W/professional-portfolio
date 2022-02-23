@@ -1,0 +1,5 @@
+.about-nav{
+  text-decoration: line-through;
+  background-color: var(--aquamarine);
+  color: inherit;
+}
