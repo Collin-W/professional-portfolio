@@ -3,3 +3,75 @@
   background-color: var(--aquamarine);
   color: inherit;
 }
+
+
+
+/* values/full bio section start */
+
+.val-bio-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+#full-bio{
+  background-color: var(--mint);
+  border-radius: 15px;
+  padding: 1%;
+  font-family: var(--OpenSansCondensed);
+  margin: 2% 0 2% 0;
+  margin-left: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.title{
+  width: 100%;
+}
+#values{
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--mint);
+  border-radius: 15px;
+  padding: 1% ;
+  margin: 2% 0 2% 2%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  font-family: var(--OpenSansCondensed);
+}
+.value{
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+/* values section end */
+
+
+/* hobby section start */
+#hobbies{
+  background-color: var(--mint);
+  border-radius: 15px;
+font-family: var(--OpenSansCondensed);
+padding: 1%;
+margin: 0 0 2% 0;
+
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#hobby-description{
+ 
+}
+
+#hobby-img{
+  
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  /* this width may cause issues later */
+  width: 40%;
+  border-radius: 15px;
+  border: 2px solid black;
+ 
+}
+/* #container:hover > #cube { background-color: yellow; } */
+/* on hover effect image */
+.pen-making:hover > #hobby-img{
+  background-image: url("../images/hobbies/my-diacholam-pen.jpg");
+  
+}
+/* hobby section end */
