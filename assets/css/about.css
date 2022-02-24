@@ -11,7 +11,10 @@
 .val-bio-wrapper{
   display: flex;
   justify-content: space-between;
+
+
 }
+
 #full-bio{
   background-color: var(--mint);
   border-radius: 15px;
@@ -21,23 +24,28 @@
   margin-left: none;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-.title{
-  width: 100%;
-}
-#values{
-  display: flex;
-  justify-content: space-around;
+
+.value-wrapper{
   background-color: var(--mint);
   border-radius: 15px;
   padding: 1% ;
-  margin: 2% 0 2% 2%;
+  /* margin: 2% 0 2% 2%; */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   font-family: var(--OpenSansCondensed);
+}
+#values{
+  margin: 2% 0 2% 0;
+  display: flex;
+  justify-content: space-around;
+  
 }
 .value{
   font-weight: bold;
   text-align: center;
   text-decoration: underline;
+}
+.val-description{
+  display: flex;
 }
 /* values section end */
 
@@ -75,3 +83,5 @@ box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   
 }
 /* hobby section end */
+
+
