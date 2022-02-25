@@ -60,20 +60,33 @@
     </header>
     <!-- navigation end -->
 
-    <div class="val-bio-wrapper row bootstrap-override">
-        <section id="full-bio" class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5">
+    <div class="val-bio-wrapper row  bootstrap-override">
+        <section id="full-bio" class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
 
-            <p>
+            <div class="row">
+                <h3 class="about-title">About Me</h3>
 
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum
 
-            </p>
+
+                <div class=" test ">
+                    <img class="about-profile-pic col-6" src="../images/A walk in October.jpg">
+
+                    <p>
+
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et
+                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip
+                        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                        dolore eu
+                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                        deserunt mollit anim id est laborum
+                    </p>
+                </div>
+
+            </div>
             <section class="learning">
-                <h3>Currently Learning:</h3>
+                <h3 class="about-title">Currently Learning:</h3>
                 <ul>
                     <li>
                         <p>C#</p>
@@ -90,15 +103,15 @@
 
 
 
-        <section  id="values" class="row value-wrapper col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+        <section id="values" class="row value-wrapper col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7">
 
-            
-                <h3>Core Values</h3>
-                <!-- underline -->
-           
+
+            <h3 class="about-title">Core Values</h3>
+            <!-- underline -->
+
             <div class="val-description">
-                <h5>Computer Science:</h5>
-                <ul>
+                <em class="val-category">Computer Science:</em>
+                <ul class="val-type">
                     <li>
                         <p class="value">DRY code.</p>
                         <p class="description">Code that is repetitive decreases memory, performance, and readability.
@@ -120,8 +133,10 @@
                     </li>
                 </ul>
 
-                <h5>Life:</h5>
-                <ul>
+
+                <em class="val-category">Life:</em>
+
+                <ul class="val-type">
                     <li>
                         <p class="value">When I am not curious about something, I find a reason to be. </p>
                         <p class="description">
@@ -154,7 +169,7 @@
             <section id="hobby-description" class=" col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7">
 
                 <h3>Hobbies:</h3>
-                <p>I have a handful of unquire hobbies I am passionaite about</p>
+                <p>I have a handful of hobbies I am passionate about</p>
 
                 <ul>
                     <li>
@@ -163,6 +178,7 @@
                         <p>eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </li>
                     <li class="pen-making">
+                        <!-- top -->
                         <p>Pen Making</p>
                         <p class="description"></p>
                         <p class="description">My grandpa taught me while in elementary school</p>
@@ -188,14 +204,24 @@
 
                 </ul>
 
+
+
+
+
             </section>
 
-            <section id='hobby-img' class=" col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3">
+            <section id='hobby-img' class=" col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3"></section>
 
-                <!-- on hover user can see differnt images -->
-            </section>
         </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+    <script>
+        // $('.pen-making').hover(() =>  $('#hobby-img').css({ "backgroundColor": 'yellow' }));
+       
+    </script>
+
+    <script href="'../script/script.js"></script>
 </body>
 
 </html>

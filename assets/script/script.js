@@ -37,6 +37,32 @@ $(document).ready(function () {
 
 });
 
+// hobby page imgs{ cube.addEventListener('mouseover', () => container.style.backgroundColor = "blue")
+//cube.addEventListener('mouseleave', () => container.style.backgroundColor = "white")
+
+// $('#pen-making').hover(() =>  $('#hobby-img').style.backgroundImage = 'url("../images/hobbies/my-diacholam-pen.jpg")')
+
+// $('#pen-making').click(() =>
+// console.log('123567'),
+$('.pen-making').hover(() =>  $('#hobby-img').css({"background-image": 'url("../images/hobbies/my-diacholam-pen.jpg")'}));
+// $('#hobby-img').css({"backgroundColor": 'yellow'}));
+
+
+
+
+
+
+$('#').hover()
+$('#').hover()
+$('#').hover()
+$('#').hover()
+$('#').hover()
+$('#').hover()
+$('#').hover()
+$('#').hover()
+$('#').hover()
+$('#').hover()
+
 
 // <!-- <div class="contact-header">
 //             <button id="contact-circle-question" ><i class="fa-solid fa-circle-question"></i></button>

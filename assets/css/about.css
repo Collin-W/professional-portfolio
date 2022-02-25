@@ -1,4 +1,4 @@
-.about-nav{
+.about-nav {
   text-decoration: line-through;
   background-color: var(--aquamarine);
   color: inherit;
@@ -8,14 +8,51 @@
 
 /* values/full bio section start */
 
-.val-bio-wrapper{
+.val-bio-wrapper {
   display: flex;
   justify-content: space-between;
+  
 
+}
+.val-type{
+  padding-right: 1%;
+  margin-right: 2%;
+}
+.about-title{
+  text-align: center;
+  width: 100%;
+  margin-bottom: 5%;
+  /* padding-bottom: 4%; */
+}
+.val-category{
+  border-right: 4px solid var(--seafoam);
+  padding-right: 1.5%;
+  height: 9%;
+  border-radius: 2px;
+}
+.learning{
+  width: 100%;
+}
+.test{
+  text-align: justify;
+  text-indent: 2em;
+}
+
+.about-profile-pic{
+  float: right;
+  margin: 0% 0% 0% 2%;
+  /* max-width: 100px; */
+ max-height: 85%; 
+ border-radius: 15px;
+ border: 2px solid var(--seafoam);
 
 }
 
-#full-bio{
+#full-bio {
+  flex-wrap: wrap;
+  display: flex;
+  align-items: space-even;
+
   background-color: var(--mint);
   border-radius: 15px;
   padding: 1%;
@@ -25,63 +62,78 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.value-wrapper{
+.value-wrapper {
   background-color: var(--mint);
   border-radius: 15px;
-  padding: 1% ;
-  /* margin: 2% 0 2% 2%; */
+  padding: 1%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   font-family: var(--OpenSansCondensed);
 }
-#values{
+
+#values {
   margin: 2% 0 2% 0;
   display: flex;
   justify-content: space-around;
-  
+
 }
-.value{
+
+.value {
+  font-size: 1.2em;
   font-weight: bold;
   text-align: center;
   text-decoration: underline;
 }
-.val-description{
+.description{
+  font-size: 1.05em;
+}
+
+.val-description {
   display: flex;
 }
+
 /* values section end */
 
 
 /* hobby section start */
-#hobbies{
+#hobbies {
   background-color: var(--mint);
   border-radius: 15px;
-font-family: var(--OpenSansCondensed);
-padding: 1%;
-margin: 0 0 2% 0;
+  font-family: var(--OpenSansCondensed);
+  padding: 1%;
+  margin: 0 0 2% 0;
 
-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-#hobby-description{
- 
+#hobby-description {
+
 }
 
-#hobby-img{
-  
+#hobby-img {
+
   background-size: cover;
   background-position: center;
-  height: auto;
+  /* height: auto; */
+  height: 100px;
   /* this width may cause issues later */
   width: 40%;
   border-radius: 15px;
   border: 2px solid black;
- 
+
 }
+
 /* #container:hover > #cube { background-color: yellow; } */
 /* on hover effect image */
-.pen-making:hover > #hobby-img{
-  background-image: url("../images/hobbies/my-diacholam-pen.jpg");
-  
+.pen-making:hover{
+  background-color: var(--seafoam);
 }
+#hobby-description #pen-making~:hover>#hobby-img {
+  /* background-image: url("../images/hobbies/my-diacholam-pen.jpg"); */
+  background-color: bisque;
+  /* background-size: cover;
+  display: block;
+  position: absolute;
+  background-position: center; */
+}
+
 /* hobby section end */
-
-
