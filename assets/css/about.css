@@ -145,3 +145,43 @@ max-height:100%;
   font-size: 0.9rem;
   text-decoration: underline;
 }
+
+
+
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 992px) {
+  #hobby-img{
+    width: 100%;
+    height: 100%;
+    
+  }
+  .about-title{
+    font-size: 1.8rem;
+  }
+.val-description{
+  flex-wrap: wrap;
+}
+.val-category{
+  border-right: none;
+  font-size: 1.5rem;
+}
+
+#values{
+  padding-bottom: 10%;
+}
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+
+ 
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+
+@media screen and (max-width: 575px) {
+  .val-category{
+    height: auto;
+  }
+}

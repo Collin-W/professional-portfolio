@@ -195,7 +195,10 @@ header nav ul li a:hover {
   padding: 2% 2% 2% 2%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-
+.explore{
+  text-align: end;
+  margin-right: 29.5%;
+}
 .project-header {
   width: 16.55%;
   text-align: left;
@@ -344,7 +347,13 @@ header nav ul li a:hover {
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 992px) {
-
+  
+  .animation{
+    font-size: 39px;
+  }
+.bio-contact{
+  margin: 0;
+}
   header {
 
     position: relative;
@@ -402,9 +411,9 @@ header nav ul li a:hover {
     font-size: 28px;
   }
 
-  .animation {
+  /* .animation {
     font-size: 28px;
-  }
+  } */
 }
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
