@@ -28,7 +28,7 @@
   border-right: 4px solid var(--seafoam);
   padding-right: 1.5%;
   height: 9%;
-  border-radius: 2px;
+  
 }
 .learning{
   width: 100%;
@@ -44,7 +44,7 @@
   /* max-width: 100px; */
  max-height: 85%; 
  border-radius: 15px;
- border: 2px solid var(--seafoam);
+ border: 4px solid var(--seafoam);
 
 }
 
@@ -52,7 +52,6 @@
   flex-wrap: wrap;
   display: flex;
   align-items: space-even;
-
   background-color: var(--mint);
   border-radius: 15px;
   padding: 1%;
@@ -110,30 +109,39 @@
 }
 
 #hobby-img {
-
+  background-image: url("../images/hobbies/my-diacholam-pen.jpg");
   background-size: cover;
   background-position: center;
   /* height: auto; */
-  height: 100px;
+  /* height: auto; */
   /* this width may cause issues later */
+  /* width: 40%; */
   width: 40%;
+
+  /* max-width:100%; */
+max-height:100%;
   border-radius: 15px;
-  border: 2px solid black;
+  border: 4px solid var(--seafoam);
 
 }
 
 /* #container:hover > #cube { background-color: yellow; } */
 /* on hover effect image */
-.pen-making:hover{
-  background-color: var(--seafoam);
-}
-#hobby-description #pen-making~:hover>#hobby-img {
-  /* background-image: url("../images/hobbies/my-diacholam-pen.jpg"); */
-  background-color: bisque;
-  /* background-size: cover;
-  display: block;
-  position: absolute;
-  background-position: center; */
-}
+#hobbies ul li{
 
+  padding: 1%;
+  /* margin-right: 1%; */
+  width: 80%;
+}
+.hobby-hover:hover{
+  background-color: var(--seafoam);
+  border-radius: 15px;
+}
 /* hobby section end */
+
+.see-more{
+  text-align: end;
+  margin-right: 20%;
+  font-size: 0.9rem;
+  text-decoration: underline;
+}

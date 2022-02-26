@@ -44,7 +44,7 @@ $(document).ready(function () {
 
 // $('#pen-making').click(() =>
 // console.log('123567'),
-$('.pen-making').hover(() =>  $('#hobby-img').css({"background-image": 'url("../images/hobbies/my-diacholam-pen.jpg")'}));
+// $('.pen-making').hover(() =>  $('#hobby-img').css({"background-image": 'url("../images/hobbies/my-diacholam-pen.jpg")'}));
 // $('#hobby-img').css({"backgroundColor": 'yellow'}));
 
 
