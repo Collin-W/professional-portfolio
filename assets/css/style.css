@@ -131,7 +131,7 @@ header nav ul li a:hover {
 .get-in-touch:hover {
   border-radius: 15px;
   color: inherit;
-  background-color: var(--mint);
+  background-color: var(--aquamarine);
 }
 
 .wavy {
@@ -151,7 +151,7 @@ header nav ul li a:hover {
   left: 0;
   font-size: 1.5em;
   text-decoration-style: wavy;
-  text-decoration-color: var(--mint);
+  text-decoration-color: var(--aquamarine);
   text-decoration-line: underline;
   animation: animate 25s linear infinite;
 }
@@ -232,7 +232,7 @@ header nav ul li a:hover {
 }
 
 .proj:hover {
-  border: 4px solid var(--seafoam);
+  border: 4px solid var(--aquamarine);
 }
 
 .proj-info {
@@ -267,7 +267,8 @@ header nav ul li a:hover {
 
 .repo:hover {
   color: inherit;
-  background-color: var(--mint);
+  width: 90%;
+  background-color: var(--aquamarine);
   border-radius: 15px;
 }
 
