@@ -94,6 +94,9 @@
 
 
 /* hobby section start */
+.hobby{
+  font-size: 18px;
+}
 #hobbies {
   background-color: var(--mint);
   border-radius: 15px;
@@ -143,7 +146,6 @@ max-height:100%;
   text-align: end;
   margin-right: 20%;
   font-size: 0.9rem;
-  text-decoration: underline;
 }
 
 
