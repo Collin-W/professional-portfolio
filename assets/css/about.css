@@ -7,7 +7,9 @@
 
 
 /* values/full bio section start */
-
+.about-bio-text{
+  font-size: 1rem;
+}
 .val-bio-wrapper {
   display: flex;
   justify-content: space-between;
