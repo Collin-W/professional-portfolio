@@ -305,7 +305,6 @@ header nav ul li a:hover {
 .contact {
   font-family: var(--OpenSansCondensed);
   background-color: var(--mint);
-  /* opacity: 0.9; */
   margin-top: 2%;
   margin-bottom: 2%;
   border-radius: 15px;
@@ -313,31 +312,29 @@ header nav ul li a:hover {
   justify-content: space-around;
   padding: 2% 0 2% 0;
   margin-top: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-
-.contact h3 {
-  font-size: 1.8vw;
+.contact-header{
+  text-align: center;
+  margin-bottom: 2%;
 }
-
-.contact div {
-  display: flex;
-  justify-content: space-between;
-}
-
-.contact div p,
-.contact div a {
-  font-size: 1.6vw;
+.contact-item, .contact-item p, .contact-item a{
+  text-align: center;
+  color: black;
+  font-size: calc(1rem + .45vw);
   text-decoration: underline;
   transition: background-color 0.5s, text-decoration-color 0.5s;
   color: black;
 }
 
-.contact div a:hover {
+.contact-item:hover {
   background-color: var(--aquamarine);
   border-radius: 3px;
+  padding: 0 2% 0 2%;
+}
+.contact-item p, .contact-item a:hover{
   color: inherit;
 }
-
 /* contact end */
 
 /* Utils start */
@@ -369,13 +366,6 @@ header nav ul li a:hover {
     width: 100%;
     justify-content: center;
   }
-
-  footer h3,
-  footer div {
-    text-align: center;
-    width: 100%;
-  }
-
   .about-me-bio {
     margin-bottom: 2%; 
   }
@@ -398,18 +388,12 @@ header nav ul li a:hover {
     font-size: 28px;
   }
 
-  .contact div p,
-  .contact div a {
-    font-size: 20px;
-  }
-
-  .contact h3 {
-    font-size: 25px;
-  }
-
+ 
   .norm-font {
     font-size: 28px;
   }
+
+  
 
   /* .animation {
     font-size: 28px;
@@ -428,15 +412,6 @@ header nav ul li a:hover {
     font-size: 24px;
   }
 
-  .contact div p,
-  .contact div a {
-    font-size: 16px;
-  }
-
-  .contact h3 {
-    font-size: 22px;
-  }
-
   .norm-font {
     font-size: 24px;
   }
@@ -444,8 +419,23 @@ header nav ul li a:hover {
   .animation {
     font-size: 24px;
   }
+
+  .contact-header h3{
+    font-size: xx-large;
+  }
+  .contact-item.col-3{
+    width: 100%;
+    padding: 2% 0 2% 0;
+    
+  }
+  .contact-item p, .contact-item a{
+    margin: 0;
+    font-size: x-large;
+  }
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 
-@media screen and (max-width: 575px) {}
+@media screen and (max-width: 575px) {
+  
+}
