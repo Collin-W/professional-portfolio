@@ -311,7 +311,7 @@ header nav ul li a:hover {
   border-radius: 15px;
   display: flex;
   justify-content: space-around;
-  padding: 2% 0 2% 0;
+  padding: 2% 1% 2% 1%;
   margin-top: auto;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -326,14 +326,16 @@ header nav ul li a:hover {
   text-decoration: underline;
   transition: background-color 0.5s, text-decoration-color 0.5s;
   color: black;
+  
 }
 
 .contact-item:hover {
   background-color: var(--aquamarine);
   border-radius: 3px;
-  padding: 0 2% 0 2%;
+  
 }
 .contact-item p, .contact-item a:hover{
+ 
   color: inherit;
 }
 /* contact end */

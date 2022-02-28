@@ -33,9 +33,7 @@
 .contact-bar {
   font-family: var(--OpenSansCondensed);
   background-color: var(--mint);
-  opacity: 0.9;
   margin-top: 2%;
-  
   border-radius: 15px;
   display: flex;
   flex-direction: column;
@@ -55,6 +53,8 @@
 
 .contact-bar-text:hover {
   color: inherit;
+  background-color: var(--aquamarine);
+  border-radius: 3px;
 }
 
 form {
@@ -69,7 +69,6 @@ form {
   flex-direction: column;
   background-color: var(--mint);
   font-family: var(--OpenSansCondensed);
-  opacity: 0.9;
   padding: 20px;
   border-radius: 15px;
   width: auto;
