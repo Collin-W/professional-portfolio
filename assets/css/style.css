@@ -225,7 +225,7 @@ header nav ul li a:hover {
   text-decoration: none;
   flex-grow: 2;
   background-size: cover;
-  background-position: center;
+  background-position: top;
   height: 400px;
   width: 500px;
   border-radius: 15px;
@@ -299,6 +299,31 @@ header nav ul li a:hover {
 .proj-3:hover {
   background-image: url("../images/gifs/Movie-Finder-Gif.gif");
 }
+
+/* ----------------------------------- */
+.proj-4 {
+  background-image: url("../images/projects/Note_Taker_Screenshot.png");
+}
+
+.proj-4:hover {
+  background-image: url("../images/gifs/Note_Taker_Gif.gif");
+}
+.proj-5 {
+  background-image: url("../images/projects/Pro_Taskmaster_Screenshot.png");
+}
+
+.proj-5:hover {
+  background-image: url("../images/gifs/Pro_Taskmaster_Gif.gif");
+}
+.proj-6 {
+  background-image: url("../images/projects/Run_Buddy_Screenshot.png");
+}
+
+.proj-6:hover {
+  background-image: url("../images/gifs/Run_Buddy_Gif.gif");
+}
+/* ----------------------------------- */
+/* ----------------------------------- */
 
 /* project display end */
 
