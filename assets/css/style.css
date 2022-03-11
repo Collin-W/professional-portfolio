@@ -465,5 +465,40 @@ header nav ul li a:hover {
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 
 @media screen and (max-width: 575px) {
+.proj{
+  min-height: 560px;
+  background-position: top;
+}
+
+
+  /* my project img and gif area */
+/* CO */
+.proj-1 {
+  background-image: url("../images/Capital_Opulence-Mobile.jpg");
+}
+
+.proj-1:hover {
+  background-image: url("../images/Capital_Opulence-Mobile.jpg");
+}
+
+/* MM */
+.proj-2 {
+  background-image: url("../images/Mantis_Mocha_Mobile.jpg")
+}
+
+.proj-2:hover {
+  background-image: url("../images/Mantis_Mocha_Mobile.jpg");
+}
+
+/* MF */
+.proj-3 {
+  background-image: url("../images/Movie_finder_Mobile.jpg");
+}
+
+.proj-3:hover {
+  background-image: url("../images/Movie_finder_Mobile.jpg");
+}
+
+/* project display end */
   
 }
