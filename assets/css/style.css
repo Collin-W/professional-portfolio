@@ -499,6 +499,28 @@ header nav ul li a:hover {
   background-image: url("../images/Movie_finder_Mobile.jpg");
 }
 
+.proj-4 {
+  background-image: url("../images/projects/Note_Taker_Mobile.jpg");
+}
+
+.proj-4:hover {
+  background-image: url("../images/projects/Note_Taker_Mobile.jpg");
+}
+.proj-5 {
+  background-image: url("../images/projects/Pro_Taskmaster_Mobile.jpg");
+}
+
+.proj-5:hover {
+  background-image: url("../images/projects/Pro_Taskmaster_Mobile.jpg");
+}
+.proj-6 {
+  background-image: url("../images/projects/Run_Buddy_Moblie.jpg");
+}
+
+.proj-6:hover {
+  background-image: url("../images/projects/Run_Buddy_Moblie.jpg");
+}
+
 /* project display end */
   
 }
